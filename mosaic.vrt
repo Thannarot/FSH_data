@@ -1,0 +1,37 @@
+<VRTDataset rasterXSize="8134" rasterYSize="3647">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -6.9702777777777769e+01,  2.7777777777799998e-04,  0.0000000000000000e+00,  4.5600555555555559e+01,  0.0000000000000000e+00, -2.7777777777799998e-04</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>255</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">f890_o118/890_118_20070808_HV_20070923_HV_fsh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4289" RasterYSize="3643" DataType="Byte" BlockXSize="4289" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4289" ySize="3643" />
+      <DstRect xOff="3845" yOff="4" xSize="4289" ySize="3643" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>255</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">f890_o119/890_119_20070710_HV_20071010_HV_fsh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4280" RasterYSize="3645" DataType="Byte" BlockXSize="4280" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4280" ySize="3645" />
+      <DstRect xOff="1911" yOff="0" xSize="4280" ySize="3645" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <NoDataValue>255</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">f890_o120/890_120_20070727_HV_20070911_HV_fsh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4268" RasterYSize="3644" DataType="Byte" BlockXSize="4268" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4268" ySize="3644" />
+      <DstRect xOff="0" yOff="0" xSize="4268" ySize="3644" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
